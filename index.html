@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <div class="input-container">
+            <input type="text" id="locationInput" placeholder="Enter location (e.g., City, Country)">
+            <button id="getWeatherBtn"><img src="search.png" alt="search"></button>
+        </div>
+        
+        <div id="weatherReport" class="weather-report">
+            <!-- Weather report will be displayed here -->
+            <div class="weather-info">
+                <p class="location">
+                <span class="location-value">New York, US</span></p>
+                <img class="weatherimg" src="clear.png" alt="clouds">
+                <p class="temperature"> <span class="temperature-value">
+                <span class="weather-value">Clear</span>
+                </p>
+                <div class="main">
+                <div class="div">
+               <img class="hum" src="humidity.png" alt="humidity">
+               <span class="humidity-value"> 70%</span>
+               </div>
+                <div class="div">
+               <img class="hum2" src="wind.png" alt="wind">
+                 <span class="wind-speed-value">
+             5 m/s</span>
+                </div>
+                </div>
+                <div class="div div3">
+                  <div class="main2">
+                  <img class="sun" src="sunrise.png" alt="sunrise">
+               <span class="sunrise-value">05:30 AM</span>
+               </div>
+                <div class="main2">
+               <img class="sun" src="sunset.png" alt="sunset">
+               <span class="sunset-value">08:00 PM</span>
+               </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js">script.js</script>
+</body>
+</html>
